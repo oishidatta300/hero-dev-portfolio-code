@@ -31,6 +31,12 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
+}
+
+.section-heading {
+    max-width: 827px;
+    text-align: center;
 }
 
 .logo span.color.orange {
@@ -39,13 +45,18 @@
 
 header {
     background-color: #FFF8F3;
+    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    ;
+    background-repeat: no-repeat;
+    background-position: left top, bottom right;
+
     padding-top: 50px;
 }
 
 nav {
     width: 71%;
     max-width: 1140px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -59,4 +70,165 @@ nav .menu {
     align-items: center;
 
 
+}
+
+#banner {
+    /*border: 1px solid red;*/
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner.content {
+    max-width: 585px;
+}
+
+#banner .banner.content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+
+}
+
+#banner .banner content h1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+#banner .banner content p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30;
+    margin-bottom: 30px;
+}
+
+#banner .banner image img {
+    width: 585px;
+    vertical-align: middle;
+}
+
+#about {
+    padding-top: 130px;
+
+}
+
+#about .about-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+
+
+}
+
+.section-heading {
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-heading h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-heading p {
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+
+
+#about .about-container .about-info {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.about-info .info-card p {
+
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+
+}
+
+.about-info .info-card h4 {
+    font-size: 20px;
+}
+
+#skills {
+    padding-top: 130px;
+    background-color: whitesmoke;
+
+}
+
+#skills .skills-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+
+
+}
+
+#skills .skills-container .skills-box {
+    display: flex;
+    gap: 24px;
+}
+
+.skills-box .skill-card {
+    padding: 30px;
+    background-color: white;
+    max-width: 267px;
+}
+
+.skills-box .skill-card p {
+    margin-top: 10px;
+
+}
+
+#contact {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 130px 0px;
+
+
+}
+
+#contact .contact-heading {
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-card {
+    max-width: 311px;
+    border-bottom: 1px solid #181818;
+
+}
+
+#contact .education-institution {
+    font-weight: semibold;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+#contact .education-description {
+    margin: 10px 0px;
+    font-size: 10px;
 }
